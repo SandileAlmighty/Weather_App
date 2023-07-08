@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>YOUR WEATHER TODAY</h1>
+  <p>Enjoy your day</p>
+    <div class="card">
+      <div class="search">
+         <input type="text" placeholder="enter city name" spellcheck="false">
+         <button><img src="search.png"></button>
+      </div>
+      <div class="error">
+        <p>City name not found. Invalid entry</p>
+      </div>
+      <div class="weather">
+        <img src="rain.png" class="weather-icon">
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">Tokyo</h2>
+        <div class="details">
+          <div class="col">
+            <img src="humidity.png">
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="wind.png">
+            <div>
+              <p class="wind">9 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>Created by Sandile Almighty©</footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
